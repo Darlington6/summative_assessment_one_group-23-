@@ -19,10 +19,39 @@
                     <button type="button" class="btn btn-primary">About Us</button>
                     <button type="button" class="btn btn-primary">Prev. Shows</button>
                 </div>
-            </div>
-            </div>
-            </div>
-        </div>
+                    <div>
+                        
+
+                <!-- Add form details -->
+                <div>
+                    <form action="POST" id="registration_form">
+                        <div class="col-md-7 register-right">
+                            <h2>Register Here</h2>
+                            <div class="register-form">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input name="name" type="text" class="form-control" placeholder="Firstname + Lastname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input name="email" type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone_number">Phone Number:</label>
+                                    <input name="phone_number" type="tel" class="form-control" placeholder="Phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="event_date">Event Date:</label>
+                                    <input name="event_date" type="date" class="form-control" placeholder="Date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="number_of_tickets">Number of Tickets:</label>
+                                    <input type ="number" name="number_of_tickets" type="number" class="form-control" placeholder="Number of Tickets" min="1" max="10">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
     </main>
 </body>
 </html>
