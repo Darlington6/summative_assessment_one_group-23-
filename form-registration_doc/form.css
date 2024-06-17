@@ -5,3 +5,10 @@ body {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }
+
+  .register-left {
+    text-align: cenetr;
+    color: #fff;
+    padding: 20px;
+    margin-top: 5px;
+  }
