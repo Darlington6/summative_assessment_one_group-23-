@@ -27,3 +27,11 @@ body {
     margin-top: 20px;
     padding: 10px;
   }
+
+  .register-left .btn-primary:hover {
+    background: #000;
+  }
+  
+  .register-right .btn-primary:hover {
+    background: #ff5722;
+  }
