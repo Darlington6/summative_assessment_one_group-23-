@@ -55,3 +55,15 @@ body {
 .register-form {
   padding: 30px;
 }
+
+.register-right .btn-primary {
+  float: right;
+  border-radius: 1.5em;
+  border: none;
+  width: 120px;
+  background: #ff9800;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
