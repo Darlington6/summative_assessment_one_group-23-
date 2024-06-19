@@ -48,5 +48,5 @@ document.getElementById('registration_form').addEventListener('submit', function
 
   // If all validations pass, display a success message
   alert("Registration successful!");
-  this.requestFullscreen();
+  this.reset();
 });
