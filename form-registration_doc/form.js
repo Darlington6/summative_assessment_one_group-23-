@@ -14,7 +14,7 @@ document.getElementById('registration_form').addEventListener('submit', function
   const namePattern = /^[a-zA-Z\s]+$/; // Letters and spaces only
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Basic email format
   const phone_nbrPattern = /^\(\d{3}\) \d{3}-\d{4}$/; // Phone number in format (123) 456-7890
-  const event_datePattern = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/; // Date in format MM/DD/YYYY
+  const event_datePattern = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/202[4-9]|20[3-9]\d{2}$/; // Date in format MM/DD/YYYY
 
   // Validate the name input against the name pattern
   if (!namePattern.test(name)) {
